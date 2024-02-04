@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blahaj Video</title>
+    <link rel="icon" href="1202550991111725097.ico" type="image/x-icon" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      #video-background {
+        position: fixed;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+      }
+    </style>
+  </head>
+  <body>
+    <video id="video-background" preload muted autoplay loop>
+      <source src="spinning-blahaj.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </body>
+</html>
